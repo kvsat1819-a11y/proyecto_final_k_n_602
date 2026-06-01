@@ -38,8 +38,8 @@ nav ul li a:hover{
 }
 
 .banner img{
-    width:auto
-    height:auto
+    width:auto;
+    height:auto;
     object-fit:cover;
 }
 
