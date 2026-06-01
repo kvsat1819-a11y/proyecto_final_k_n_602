@@ -41,6 +41,7 @@ nav ul li a:hover{
     width:auto;
     height:auto;
     object-fit:cover;
+    text-align:center;
 }
 
 main{
