@@ -62,7 +62,21 @@
 
     </section>
 </main>
+<button id="themeBtn" onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
 
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+
+    const btn = document.getElementById("themeBtn");
+
+    if (document.body.classList.contains("dark-mode")) {
+        btn.textContent = "☀️ Modo Claro";
+    } else {
+        btn.textContent = "🌙 Modo Oscuro";
+    }
+}
+</script>
 
 </body>
 </html>
